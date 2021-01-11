@@ -1,0 +1,39 @@
+#sliders {
+  position: relative;
+  height: 300px;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.sliderin {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 400px;
+  opacity: 0;
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showingr {
+  opacity: 1;
+  z-index: 2;
+}
+  .sliderin {
+    overflow: hidden;
+    font-size: 40px;
+    box-sizing: border-box;
+    background: white;
+    color: #fff;
+}
+
+.sliderin img{
+  width: 100%;
+  height: 130%;
+}
