@@ -1,3 +1,4 @@
+
 .slider {
       position: relative;
       overflow: hidden;
@@ -13,7 +14,7 @@
       max-width: 25.333333%;
     }
 
-  
+
 
     @media (max-width: 1200px) {
       .slider__item {

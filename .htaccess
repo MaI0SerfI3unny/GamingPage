@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^adventare$ adventare.php [L]
+RewriteRule ^sport$ sport.php [L]
+RewriteRule ^rpg$ rpg.php [L]
+RewriteRule ^strategy$ strategy.php [L]
+RewriteRule ^search$ search.php [L]
+RewriteRule ^todos$ todos.php [L]
+RewriteRule ^playstation$ playstation.php [L]
+RewriteRule ^xbox$ xbox.php [L]
+RewriteRule ^pc$ pc.php [L]
